@@ -1,0 +1,97 @@
+
+a)
+gcc.trace:
+HIT rate is: 0.9356775383326579
+MISS rate is: 0.06432246166734212
+
+gzip.trace:
+HIT rate is: 0.6670554044952229
+MISS rate is: 0.33294459550477706
+
+mcf.trace:
+HIT rate is: 0.010315856056543322
+MISS rate is: 0.9896841439434567
+
+swim.trace:
+HIT rate is: 0.9249619879086918
+MISS rate is: 0.07503801209130823
+
+twolf.trace:
+HIT rate is: 0.9871609530594999
+MISS rate is: 0.012839046940500087
+
+
+b)
+gcc.trace:
+HIT rate is: 0.9382585813377599
+MISS rate is: 0.061741418662240144
+*Hit rate has increased slightly as compared to a) part.
+
+gzip.trace:
+HIT rate is: 0.6670554044952229
+MISS rate is: 0.33294459550477706
+*No change
+
+mcf.trace:
+HIT rate is: 0.01031998129890131
+MISS rate is: 0.9896800187010987
+*Hit rate has increased slightly as compared to a) part.
+
+swim.trace:
+HIT rate is: 0.9259382637461947
+MISS rate is: 0.0740617362538053
+*Hit rate has increased slightly as compared to a) part.
+
+twolf.trace:
+HIT rate is: 0.9874633406790052
+MISS rate is: 0.012536659320994792
+*Hit rate has increased slightly as compared to a) part.
+
+**Overall we see an increase in hit rate when cache size increases
+
+c)
+
+gcc.trace:
+1:HIT rate is: 0.9293635818904249
+MISS rate is: 0.0706364181095751
+
+2:HIT rate is: 0.9335909851594875
+MISS rate is: 0.06640901484051254
+
+4:HIT rate is: 0.9356775383326579
+MISS rate is: 0.06432246166734212
+
+8:HIT rate is: 0.9563316999009082
+MISS rate is: 0.04366830009909184
+
+16:HIT rate is: 0.9755469930170279
+MISS rate is: 0.024453006982972147
+
+32:HIT rate is: 0.9854038236668651
+MISS rate is: 0.014596176333134925
+
+gzip.trace:
+
+HIT rate is: 0.6670387739998835
+MISS rate is: 0.33296122600011646
+
+HIT rate is: 0.667040852811801
+MISS rate is: 0.33295914718819897
+
+HIT rate is: 0.6670554044952229
+MISS rate is: 0.33294459550477706
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

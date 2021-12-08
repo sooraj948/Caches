@@ -1,0 +1,46 @@
+Trace file name		Cache Size(kB)		Block Size(Bytes)		Hit rate		Miss rate		Remarks
+										
+gcc		64		1		0.929363582		0.070636418		
+		64		2		0.933590985		0.066409015		
+		64		4		0.935677538		0.064322462		
+		64		8		0.9563317		0.0436683		
+		64		16		0.975546993		0.024453007		
+		64		32		0.985403824		0.014596176		As block size increases the hit rate also increases
+		512		4		0.938258581		0.061741419		When caches size increases hit rate increases
+										
+gzip		64		1		0.667038774		0.332961226		
+		64		2		0.667040853		0.332959147		
+		64		4		0.667055404		0.332944596		
+		64		8		0.667072035		0.332927965		
+		64		16		0.667851589		0.332148411		
+		64		32		0.668242406		0.331757594		As block size increases the hit rate also increases
+		512		4		0.667055404		0.332944596		When caches size increases hit rate remains same
+										
+mcf		64		1		0.010237476		0.989762524		
+		64		2		0.010278729		0.989721271		
+		64		4		0.010315856		0.989684144		
+		64		8		0.010374985		0.989625015		
+		64		16		0.50501767		0.49498233		High spatial locality is seen
+		64		32		0.752364451		0.247635549		
+		512		4		0.010319981		0.989680019		When caches size increases hit rate increases
+										
+swim		64		1		0.924193501		0.075806499		
+		64		2		0.924681638		0.075318362		
+		64		4		0.924961988		0.075038012		
+		64		8		0.933290017		0.066709983		
+		64		16		0.961127071		0.038872929		
+		64		32		0.977707269		0.022292731		As block size increases the hit rate also increases
+		512		4		0.925938264		0.074061736		When caches size increases hit rate increases
+										
+twolf		64		1		0.984464318		0.015535682		
+		64		2		0.986170944		0.013829056		
+		64		4		0.987160953		0.012839047		
+		64		8		0.988105397		0.011894603		
+		64		16		0.993390966		0.993390966		
+		64		32		0.996060676		0.003939324		As block size increases the hit rate also increases
+		512		4		0.987463341		0.012536659		When caches size increases hit rate increases
+										
+										
+										
+										
+		mcf	<	gzip	<	swim	<	gcc	<	twolf
